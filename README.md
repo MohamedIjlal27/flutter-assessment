@@ -1,16 +1,27 @@
-# trackingsystem
+Completed Requirements:
+Login Screen:
 
-A new Flutter project.
+    Loading Page: Implemented a loading page with the merchant logo.
+    Login Functionality: Users can log in using their merchant account details (email and password).
+    Dashboard View:
 
-## Getting Started
+Widgets for:
+    Order statistics
+    Finance statistics
+    Status statistics
+    Implemented proper widget components from a suitable UI library.
 
-This project is a starting point for a Flutter application.
+Orders Section:
 
-A few resources to get you started if this is your first Flutter project:
+    View Orders by Status: Orders are displayed separately based on their status.
+    Download Orders: Implemented functionality to download orders as Excel files using Firestore.
+    View & Add Remarks: Enabled the viewing of remarks added to orders and the ability to add new ones.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Non Completed Requirements:
+
+    Order Location Tracking:
+    Not fully implemented; I did not complete integrating a location API service (like Google Maps API) to show order transportation progress.
+
+    Push Notifications:
+    Push notification functionality for updating order status using Firebase Services is not completed.
